@@ -32,8 +32,8 @@ public abstract class Pagamento implements Serializable {
 	@MapsId
 	private Pedido pedido;
 
-	@SuppressWarnings("unused")
-	private Pagamento() {
+	
+	public Pagamento() {
 
 	}
 
